@@ -46,7 +46,9 @@ If you do not like the structure, you are welcome to change the over all code, u
   
 2. Any output file or image should be written to output/ folder
 
-The TA will only be able to see your results if these two conditions are met
+3. The code has to run on CircleCI
+
+The TA will only be able to see your results if these three conditions are met
 
 1. Resampling      - 8 Pts
 2. Report          - 2 Pts

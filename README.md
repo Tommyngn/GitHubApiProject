@@ -1,7 +1,7 @@
 # Digital Image Processing 
 Assignment #1
 
-Due: Thur 9/13/18 11:59 PM
+Due: Tue 02/05/19 11:59 PM
 
 1. Resampling:
 
@@ -16,14 +16,20 @@ Due: Thur 9/13/18 11:59 PM
        - image-name: name of the image
        - scalex, scaley: scale to resize the image (eg. fx 0.5, fy 0.5 to make it half the original size)
        - method: "nearest_neightbor" or "bilinear" 
-  - Example: - ./dip_hw1_resize.py -i cell2.jpg -fx 0.75 -fy 0.75 -m nearest_neighbor
-             - or 
-             - python dip_hw1_resize.py -i cell2.jpg -fx 0.75 -fy 0.75 -m nearest_neighbor
   - Please make sure your code runs when you run the above command from prompt/Terminal
   - Any output images or files must be saved to "output/" folder
   
 ----------------------
-2. (2 Pts.) Describe your method and report you findings in report.md for each problem of the assignemnt.
+2. (2 Pts.) Report
+  - Following points are good examples of things to include in the report
+     - findings
+     - observations
+     - implementation issues or road block you faced
+     - difficulties with understanding of the problem
+  - Upload your report in PDF version
+  - Do not include code, output
+  - Do not use text from online sources
+  - Cite any source that you have used to solve the assingment or write the report.
 
 ----------------------
 Two images are provided for testing: cells.png and cell2.jpg
@@ -43,7 +49,7 @@ If you do not like the structure, you are welcome to change the over all code, u
 The TA will only be able to see your results if these two conditions are met
 
 1. Resampling      - 8 Pts
-3. Report          - 2 Pts
+2. Report          - 2 Pts
 
     Total          - 10 Pts.
 

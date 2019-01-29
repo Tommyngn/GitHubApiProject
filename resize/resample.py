@@ -16,7 +16,7 @@ class resample:
             return self.nearest_neighbor(image, float(fx), float(fy))
 
     def nearest_neighbor(self, image, fx, fy):
-        """resizes an image using bilinear interpolation approximation for resampling
+        """resizes an image using nearest neighbor approximation for resampling
         image: the image to be resampled
         fx: scale along x direction (eg. 0.5, 1.5, 2.5)
         fx: scale along y direction (eg. 0.5, 1.5, 2.5)

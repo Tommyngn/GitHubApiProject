@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68FEFFE3-7C91-9048-6235-573E6A9D7DF2" schemaObject="0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615" name="PRODUCT">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>TNGUYEN</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRODUCTID" id="95C7A335-B241-25CB-AA9E-D69E982AF470">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCTID</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTNAME" id="9BF82B17-CB24-9A31-3515-9512C2D28796">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCTNAME</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTFINISH" id="B1CDBB90-E0DA-17FA-6CC6-AD63DFDEE96B">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCTFINISH</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTSTANDARDPRICE" id="C250B6D2-5878-1160-D017-00721B0102F1">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCTSTANDARDPRICE</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCTLINEID" id="5890ED75-9E13-C6D8-D695-364A9CAD017B">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PRODUCTLINEID</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31AE5BF7-A6C8-8EA0-EE0E-D64E931CDF55" referredColumn="8A3AB3B6-0494-DC9D-417B-41620A970A8E"/>
+</associations>
+</Column>
+<Column name="PHOTO" id="65EC25D8-B971-2F04-1336-50B6E111539B">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRODUCT</sourceObjSchema>
+<sourceObjName>PHOTO</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CB75508-CFA3-D67F-125E-E638CE29A253" schemaObject="0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615" name="PRODUCT_PK">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>TNGUYEN</sourceObjSchema>
+<sourceObjName>SYS_C00102858</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95C7A335-B241-25CB-AA9E-D69E982AF470"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4AF3D52A-F23B-8457-52B7-C228B578C204" name="SYS_C00102859">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5890ED75-9E13-C6D8-D695-364A9CAD017B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

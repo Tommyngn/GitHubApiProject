@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28D63D58-53D6-777D-954B-C9DC3AF05904" schemaObject="0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615" name="PRICEUPDATE">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>TNGUYEN</sourceObjSchema>
+<sourceObjName>PRICEUPDATE</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:14 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRICEUPDATEID" id="1A5A6A22-500D-CE6B-A72D-F1715480E1EA">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRICEUPDATE</sourceObjSchema>
+<sourceObjName>PRICEUPDATEID</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:16 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATECHANGED" id="F06DFA63-92FC-2652-86C6-B5C9BBC57301">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRICEUPDATE</sourceObjSchema>
+<sourceObjName>DATECHANGED</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:16 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OLDPRICE" id="BC51F1CA-CC9D-2CD4-72B5-C4902CCB4D17">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRICEUPDATE</sourceObjSchema>
+<sourceObjName>OLDPRICE</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:16 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEWPRICE" id="6C14C307-831B-80CE-EE0F-E0DD32843694">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>PRICEUPDATE</sourceObjSchema>
+<sourceObjName>NEWPRICE</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:16 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E44FF183-62BB-A823-F341-D583D9B65329" schemaObject="0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615" name="PRICEUPDATE_PK">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjSchema>TNGUYEN</sourceObjSchema>
+<sourceObjName>SYS_C00103159</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:16 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A5A6A22-500D-CE6B-A72D-F1715480E1EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

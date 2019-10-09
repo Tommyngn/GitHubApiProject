@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRODUCT" directorySegmentName="seg_0" id="68FEFFE3-7C91-9048-6235-573E6A9D7DF2">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<schemaObject>0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>9CED2A27-8B1B-68C1-8F15-A35785C34A1B</segment>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCTLINEID" id="5890ED75-9E13-C6D8-D695-364A9CAD017B">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHOTO" id="65EC25D8-B971-2F04-1336-50B6E111539B">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTID" id="95C7A335-B241-25CB-AA9E-D69E982AF470">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTNAME" id="9BF82B17-CB24-9A31-3515-9512C2D28796">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTFINISH" id="B1CDBB90-E0DA-17FA-6CC6-AD63DFDEE96B">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTSTANDARDPRICE" id="C250B6D2-5878-1160-D017-00721B0102F1">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C00102859" id="4AF3D52A-F23B-8457-52B7-C228B578C204">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRODUCT_PK" id="9CB75508-CFA3-D67F-125E-E638CE29A253">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<schemaObject>0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615</schemaObject>
+<segment>80A6BBC2-7B2E-E07A-1041-9D918BA30390</segment>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+<indexSegment>80A6BBC2-7B2E-E07A-1041-9D918BA30390</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

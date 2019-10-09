@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TNGUYEN" directorySegmentName="seg_0" id="8AF45735-E6A3-4A7B-4F7F-51F58454EF56">
+<sourceConnName>Project2</sourceConnName>
+<sourceObjName>TNGUYEN</sourceObjName>
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:55:36 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<schemaObject>0C4DA7A0-2D63-5A98-78A3-4A02FB9F7615</schemaObject>
+<defTableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</defTableSpace>
+<privileges>CREATE PROCEDURE, INSERT ANY TABLE, CREATE TRIGGER, SELECT ANY TABLE, DROP ANY PROCEDURE, DROP ANY TABLE, DROP ANY VIEW, CREATE VIEW, DROP ANY TRIGGER, EXECUTE ANY PROCEDURE, DROP TABLESPACE, CREATE TABLESPACE, CREATE SESSION</privileges>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="13A95FF0-FB30-63B8-A8C4-9B4EC073C85E">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:55:38 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="12A9D663-0E81-28F2-0B01-9FBF508F3DE0">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:56:06 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="6AA123A2-BECE-0315-261A-799E30ACF703">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:56:26 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="F0F4844F-1B64-E872-F05B-1AC6846C83EA">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:56:42 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="47665B88-C713-1ED5-E079-55FFF7541C93">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:14 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem6" id="ACABB642-6455-BEE6-E9A3-2FB4628A9447">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-08 23:59:45 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem7" id="9892C2A7-51F7-D9FE-3840-E8F60A346524">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-09 00:00:09 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem8" id="678679AD-C344-5738-3B02-7A866C999DEC">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-09 00:00:32 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem9" id="A3E69D53-8DC6-4E1B-83B3-C0D34DFF2CE9">
+<createdBy>tommynguyen</createdBy>
+<createdTime>2019-10-09 00:00:48 UTC</createdTime>
+<ownerDesignName>relation</ownerDesignName>
+<tableSpace>F215DB3B-D756-2FD3-5D19-C1AF3FCA653E</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

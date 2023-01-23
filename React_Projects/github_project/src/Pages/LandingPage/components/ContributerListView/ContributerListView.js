@@ -25,7 +25,6 @@ const ContributerListView = ({ username, contributionAmount, avatar, openDrawer 
                         console.log(error);
                     })
                     if (response) {
-                        console.log(response);
                         checkCurrentProfile(response);
                         openDrawer();
                     }

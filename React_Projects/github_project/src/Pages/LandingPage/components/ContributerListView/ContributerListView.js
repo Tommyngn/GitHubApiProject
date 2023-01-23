@@ -17,7 +17,7 @@ const ContributerListView = ({ username, contributionAmount, avatar, openDrawer 
                 <Avatar src={avatar} />
             </Grid>
             <Grid item>
-                <Button variant='link' onClick={async () => {
+                <Button variant='outlined' onClick={async () => {
                     const {data: response} = await octokit.request(`GET https://api.github.com/users/${username}`)
                     .then(response => {
                         return response;

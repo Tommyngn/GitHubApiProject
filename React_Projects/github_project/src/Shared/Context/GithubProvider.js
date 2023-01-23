@@ -1,7 +1,7 @@
 import React, {useEffect, useContext, useState} from 'react';
 import { Octokit } from 'octokit';
 
-const octokit = new Octokit({ auth:'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'})
+const octokit = new Octokit({ auth:'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'})
 
 const AccessCurrentProfile = React.createContext({});
 const AccessContributionList = React.createContext({});

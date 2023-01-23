@@ -4,7 +4,7 @@ import { SwitchProfile } from '../../../../Shared/Context/GithubProvider';
 import { Octokit } from 'octokit';
 import 'rsuite/dist/rsuite.min.css';
 
-const octokit = new Octokit({ auth:'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'})
+const octokit = new Octokit({ auth:'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'})
 
 
 

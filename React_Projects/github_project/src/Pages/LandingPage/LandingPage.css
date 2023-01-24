@@ -10,3 +10,7 @@
 .background-color {
     background-color: #BDB5C0;
 }
+
+.content {
+    justify-content: center;
+}
